@@ -14,6 +14,8 @@ public class BaseClass {
         //give global wait
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
+		
+		System.out.println("This is Base class")
 	}
 
 }
